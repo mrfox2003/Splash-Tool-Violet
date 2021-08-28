@@ -1,0 +1,12 @@
+ui_print("------Splash TOOL BY MR FOX------");
+ui_print
+("
+█▀ █▀█ █░░ ▄▀█ █▀ █░█   █░█ █░█ █▄▄
+▄█ █▀▀ █▄▄ █▀█ ▄█ █▀█   █▀█ █▄█ █▄█
+");
+ui_print("SPLASH FLASHED SUCCESSFULLY");
+ui_print("Join @viosplash");
+
+package_extract_file("splash.img", "/dev/block/bootdevice/by-name/splash");
+
+ui_print("E͓̽N͓̽J͓̽O͓̽Y͓̽");
